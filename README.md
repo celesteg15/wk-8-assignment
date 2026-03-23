@@ -19,29 +19,23 @@ This project refactors the starter app into ES modules while keeping the same be
 - render.js  
   Owns DOM updates only. Exports `renderApp(elements, state)`.
 
-
-Your A5 task is to **refactor** this into ES modules (without changing behavior).
-
 ## How to run
 
-From inside this folder:
-
-```bash
-python3 -m http.server 4040
-```
+Open `index.html` with VS Code Live Server.
 
 Open:
-- `http://localhost:4040/`
+- http://127.0.0.1:5500/index.html
 
-## What to refactor (suggested module split)
+## What I tested after refactor
 
-When you move to modules, a good split is:
-
-- `src/state.js` — state object + selectors (derived values)
-- `src/render.js` — DOM updates only
-- `src/api.js` — fetch + parsing/validation only
-- `src/dom.js` — DOM queries (exported refs)
-- `src/main.js` — event wiring + boot
+- On load, the app shows loading and then shows the list
+- Search filters the list
+- Clicking an item shows details
+- Error state shows a Retry button
+- The JSON still loads from `./data/items.json`
+- The first item is selected automatically after load
+- A search with no matches shows `No matches.`
+- Retry attempts to load the data again
 
 ## Behavior checklist (should remain true after refactor)
 
@@ -49,3 +43,15 @@ When you move to modules, a good split is:
 - Search filters the list
 - Clicking an item shows details
 - Error state shows a Retry button
+
+
+## File Tree
+.
+├── data/
+│   └── items.json
+├── index.html
+├── main.js
+├── render.js
+├── state.js
+├── styles.css
+└── README.md
