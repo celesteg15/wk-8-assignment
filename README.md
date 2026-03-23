@@ -46,6 +46,7 @@ Open:
 
 
 ## File Tree
+```text
 .
 ├── data/
 │   └── items.json
