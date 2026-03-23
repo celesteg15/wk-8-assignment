@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>A5 Starter — No Modules</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./main.js"></script>
+  </head>
+  <body>
+    <header class="container">
+      <h1>A5 Starter (No Modules)</h1>
+      <p class="muted">
+        Single-file JS app. Your job in A5 is to refactor it into modules without
+        changing behavior.
+      </p>
+    </header>
+
+    <main class="container">
+      <section class="panel" aria-labelledby="search-title">
+        <h2 id="search-title">Search</h2>
+        <label class="field">
+          <span class="label">Title contains</span>
+          <input id="search" type="search" placeholder="e.g. mars" autocomplete="off" />
+        </label>
+      </section>
+
+      <section class="grid">
+        <section class="panel" aria-labelledby="list-title">
+          <h2 id="list-title">Items</h2>
+          <div id="status" role="status" class="status"></div>
+          <div id="error" class="error" hidden>
+            <p id="errorMessage"></p>
+            <button id="retry" type="button">Retry</button>
+          </div>
+          <ul id="list" class="list" aria-label="Items list"></ul>
+        </section>
+
+        <section class="panel" aria-labelledby="detail-title">
+          <h2 id="detail-title">Details</h2>
+          <div id="detail" class="detail">
+            <p class="muted">Select an item from the list.</p>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="container footer">
+      <p class="muted">Data source: <code>./data/items.json</code></p>
+    </footer>
+  </body>
+</html>

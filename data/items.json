@@ -1,0 +1,50 @@
+[
+  {
+    "id": "bk-001",
+    "title": "Mars Field Guide",
+    "author": "A. Patel",
+    "year": 2024,
+    "tags": ["science", "space"],
+    "summary": "A practical guide to hazards, habitats, and field notes for Mars exploration."
+  },
+  {
+    "id": "bk-002",
+    "title": "The Modular Mindset",
+    "author": "J. Nguyen",
+    "year": 2021,
+    "tags": ["software", "design"],
+    "summary": "How boundaries and responsibilities make systems easier to change."
+  },
+  {
+    "id": "bk-003",
+    "title": "Ocean Signals",
+    "author": "R. Kim",
+    "year": 2019,
+    "tags": ["fiction"],
+    "summary": "A near-future mystery told through logs, messages, and broken telemetry."
+  },
+  {
+    "id": "bk-004",
+    "title": "UI States: A Short Handbook",
+    "author": "S. Romero",
+    "year": 2023,
+    "tags": ["ux", "frontend"],
+    "summary": "Patterns for loading, error, empty, and success states in small web apps."
+  },
+  {
+    "id": "bk-005",
+    "title": "JavaScript Without Guessing",
+    "author": "T. Osei",
+    "year": 2020,
+    "tags": ["javascript"],
+    "summary": "A set of pragmatic techniques for debugging, naming, and refactoring safely."
+  },
+  {
+    "id": "bk-006",
+    "title": "The Library of Small Worlds",
+    "author": "M. Chen",
+    "year": 2018,
+    "tags": ["fiction", "collections"],
+    "summary": "Stories about catalogues, indices, and the people who keep them." 
+  }
+]
