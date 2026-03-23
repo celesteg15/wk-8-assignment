@@ -1,3 +1,7 @@
+# A5 Refactor into ES Modules
+
+This project refactors the starter app into ES modules while keeping the same behavior.
+
 ## What my modules are
 
 - main.js
@@ -15,14 +19,6 @@
 - render.js  
   Owns DOM updates only. Exports `renderApp(elements, state)`.
 
-
-# A5 Starter (No Modules)
-
-This is a deliberately **single-file JavaScript** app intended as a starting point for A5.
-
-- All JS lives in `app.js`
-- It uses `fetch()` to load local JSON
-- It includes explicit UI states: loading / error / empty / success
 
 Your A5 task is to **refactor** this into ES modules (without changing behavior).
 
